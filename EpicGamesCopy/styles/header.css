@@ -1,0 +1,88 @@
+header{
+    height:100%;
+    position:relative;
+}
+.headerFront{
+    height:120%
+}
+
+header img{
+    width:100%;
+    height:91%;
+    position:relative;
+    filter: brightness(50%);
+}
+
+header .textbox{
+    position:absolute;
+    text-align: center;
+    top: 90%;
+    font-size: 430%;
+    left: 100px;
+    font-family: 'Helvetica', sans-serif;
+
+}
+
+nav{
+    background-color:rgb(43, 41, 41);
+    font-size: 70%;
+    font-family: 'Helvetica', sans-serif;
+    position:relative;
+    height:7.5%;
+    margin: 0px;
+    overflow:hidden;
+
+}
+
+nav ul {
+    list-style-type: none;
+    color: white;
+    height:100%;
+    position: absolute;
+    top:36%;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-top:0px;
+
+}
+nav li {
+    display: inline-block;
+    padding-right: 30px;
+    /* margin-top: .9%; */
+}
+
+.sign{
+    font-weight:bolder;
+    color:white;
+    position: absolute;
+    left: 55px;
+    /* padding-top:.3%; */
+}
+nav img{
+    position:absolute;
+    display:inline-block;
+    width:35px;
+    max-width:100%;
+    height:40px;
+    max-height:100%;
+    left:10px;
+    top:8%;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-top:0px;
+    /* padding-top:.3% */
+}
+
+.linkbardivider{
+    display: inline-block;
+    border: white 1px solid;
+    height: 50%;
+    width: 0px;
+    padding: 0px;
+    position: absolute;
+    left: 350px;
+    margin-top:0px;
+    top:-15%
+    /* margin-top: .06%; */
+}
+

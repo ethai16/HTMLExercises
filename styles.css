@@ -1,0 +1,14 @@
+div{
+    background-color: violet
+}
+
+a{
+    color: yellow;
+    font-size: 30px
+}
+
+p > a{
+    color: red;
+    font: size 20px;
+    background-color: aquamarine
+}

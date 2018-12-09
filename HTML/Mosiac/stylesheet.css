@@ -1,0 +1,160 @@
+body, html{
+    margin:0px;
+    background:rgb(255, 255, 255);
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center
+}
+
+.yellow{
+    background-color:yellow;
+
+}
+.red{
+    background-color:red;
+}
+.black{
+    background-color:black;
+}
+.blue{
+    background-color:skyblue;
+}
+
+.white{
+    background-color:white;
+
+}
+
+.container{
+    background-color:gray;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+
+}
+
+.leftSector{
+    display: flex;
+    height:100%;
+    width:33%;
+    padding:1%;
+    position:relative
+}
+
+.topLeft{
+    display:flex;
+    width:100%;
+    height:100%;
+    justify-content:space-between
+}
+
+.hat1{
+    display:flex;
+    width:30%;
+    height:10%
+
+}
+
+.hat2{
+    display:flex;
+    width: 68%;
+    height:10%;
+}
+
+.left2{
+    display:flex;
+    width:20%;
+    height:75%;
+    flex-direction: column;
+    justify-content: space-between;
+    position:absolute;
+    top:12.4%
+}
+
+.left21{
+    width:100%;
+    height:20%
+}
+
+.left22{
+    width:100%;
+    height:39.3%
+}
+
+.left3{
+    display:flex;
+    height:10%;
+    width: 60%;
+    position:absolute;
+    top:88%
+}
+
+.left31{
+    height:100%;
+    width:100%;
+}
+
+.left4{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    width: 38.7%;
+    height: 40%;
+    justify-content: space-between;
+    top:47.3%;
+    left: 24%
+}
+
+.left41{
+    height:49%;
+    width:100%;
+}
+
+.left5{
+    display:flex;
+    height:33%;
+    width:73.4%;
+    position:absolute;
+    top: 13%;
+    left: 24%
+}
+
+.left51{
+    height:100%;
+    width:100%
+}
+
+.left6{
+    display:flex;
+    height:30%;
+    width:33%;
+    position:absolute;
+    flex-direction:column;
+    justify-content: space-between;
+    top:47.3%;
+    left:64%;
+}
+
+.left61{
+    height:30%;
+    width:100%
+}
+
+.left7{
+    display:flex;
+    height:20%;
+    width: 33%;
+    position:absolute;
+    justify-content:space-between;
+    top:78%;
+    left: 64%;
+}
+
+.left71{
+    height:100%;
+    width:49%
+}
