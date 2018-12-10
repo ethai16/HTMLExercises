@@ -1,2 +1,1 @@
 # HTMLExercises
-# blackjack
